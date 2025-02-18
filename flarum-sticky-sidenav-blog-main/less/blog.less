@@ -1,0 +1,19 @@
+@media (min-width: 992px) {
+    .FlarumBlog-Article-Sidebar {
+        position: sticky;
+        top: 70px;
+        max-height: 90vh;
+        overflow-y: auto;
+
+        // WebKit(Chrome & Safari)
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        // Firefox
+        scrollbar-width: none;
+
+        // IE/Edge
+        -ms-overflow-style: none;
+    }
+}
