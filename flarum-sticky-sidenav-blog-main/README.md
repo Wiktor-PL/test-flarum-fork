@@ -11,7 +11,7 @@ This extension was developed inspired by [ECNU-Forum/sticky-sidenav](https://git
 Install with composer:
 
 ```sh
-composer require clamours/sticky-sidenav-blog
+composer require Wiktor-PL/te
 ```
 
 ## Updating
